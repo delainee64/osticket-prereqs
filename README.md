@@ -98,7 +98,7 @@ Open IIS as an admin by right-clicking on ISS and selecting "Run as admin". Sele
 
 </p>
 <p>
-Download and open the file "osTicket-v1.15.8.zip". In another folder window, go to your hard drive and select "inetpub" --> "wwwroot" and then drag the "upload" folder to "wwwroot". Rename "upload" to "osTicket". Restart IIS.
+Download and open the file "osTicket-v1.15.8.zip". In another folder window, go to your hard drive and select "inetpub" --> "wwwroot" and then drag the "upload" folder to "wwwroot". Rename "upload" to "osticket". Restart IIS.
 </p>
 
 <p>
@@ -165,10 +165,10 @@ Go back to "wwwroot" --> "inetpub" and right-click on "setup" and delete it.
 </p>
 
 <p>
-<img src="https://github.com/delainee64/osticket-prereqs/assets/114307952/3fddad61-b620-4cab-9594-54c72e4c0c33" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/delainee64/osticket-prereqs/assets/114307952/3a91b889-167b-4b61-be5e-6e0a2b517397" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 <p>
-Lastly, go to "Include" in the same file and right-click on "ost-config.php" and select properties --> "Security" --> "Edit" and deny everyone writing privledges.
+Lastly, go to "Include" in the same file and right-click on "ost-config.php" and select properties --> "Security" --> "Advanced" and uncheck everything but "Read and execute" and "Read". Hit Apply and you are finished with setup!
 </p>
